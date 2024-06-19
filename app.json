@@ -1,8 +1,9 @@
-  "name":"FLASH-MD",
+{
+  "name":"FEARLESS-MD",
   "description":"An easy and simple WhatsApp bot developed by France King",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
-  "repository":"https://github.com/franceking1/Flash-Md",
+  "logo":"https://telegra.ph/file/4deb9bccad73daef00e17.jpg",
+  "repository":"https://github.com/Sylivanu/fearless",
   "succes_url":"/",
   "stack":"container",
      "env":{
@@ -40,14 +41,14 @@
     "BOT_NAME" : {
 
       "description":"put A name for your bot",
-      "value":"FLASH-MD",
+      "value":"FEARLESS-MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
 
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
+      "value":"https://telegra.ph/file/4deb9bccad73daef00e17.jpg",
       "required":false
 
      },
@@ -69,7 +70,7 @@
           ,
     "SESSION_ID":
     {
-      "description":"put your session ID, AMKE SURE IT STARTS WITH FLASH-MD-WA-BOT;;;=>",   
+      "description":"put your session ID, AMKE SURE IT STARTS WITH FEARLESS-MD-WA-BOT;;;=>",   
       "value":"",
       "required": true
 
@@ -79,14 +80,14 @@
 
     "desc": "Your Name",
     "required": false,
-    "value": "France King"
+    "value": "FEARLESS"
   },
     "OWNER_NUMBER":
   {
 
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254751284190"
+    "value": "+2348075952205"
   },
     "WARN_COUNT":
   {
@@ -127,7 +128,7 @@
     }
   ],
 
-    "formation": {
+  "formation": {
                 "worker": {
                         "quantity": 1,
                         "size": "basic"
@@ -140,4 +141,3 @@
     }
   ]
 }
-
